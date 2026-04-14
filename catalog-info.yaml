@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: external-payment-api
+spec:
+  type: openapi
+  lifecycle: production
+  owner: external
+  definition:
+    openapi: 3.0.0
+    info:
+      title: External API
+      version: 1.0.0
